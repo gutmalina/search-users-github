@@ -1,0 +1,65 @@
+.container {
+  background-color: white;
+  width: 60%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container_title {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.about_user {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.subtitle {
+  font-size: 0.9em;
+}
+
+.list_repos {
+  overflow: auto;
+  width: 100%;
+}
+
+.item_repos {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 0.2fr 1fr 1fr;
+}
+
+.title_repos {
+  margin: 0;
+  font-size: 0.9em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.link_repos {
+  font-size: 0.8em;
+}

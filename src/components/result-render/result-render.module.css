@@ -1,0 +1,22 @@
+.wrapper {
+}
+
+.title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.list {
+    padding: 30px;
+}
+
+.li {
+  margin-bottom: 5px;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: 0.1fr 1.4fr;
+}

@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.container_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.input_search {
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.container_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 0.8em;
+}
+
+.ckeckbox_input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkbox {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ckeckbox_input:checked + .checkbox {
+  background-image: url(../../images/icon-checkbox.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
