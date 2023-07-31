@@ -1,7 +1,7 @@
 # Тестовое задание на вакансию Junior Web-разработчик 
 
 <p padding="0" align="center">~~~~~~~~~~</p>
-<a  href="https://gutmalina.github.io/table-sort-filter/" target="_blank" align="center"><img src="./readme/videogift.gif" width="100%" alt="Демо"></a>
+<a  href="https://gutmalina.github.io/search-users-github/" target="_blank" align="center"><img src="./readme/videogift.gif" width="100%" alt="Демо"></a>
 <p padding="0" align="center">~~~~~~~~~~</p>
 
 ### Стэк:
@@ -25,5 +25,5 @@
 * Реализовать 3 юнит-теста на функционал. 
 
 ### Ссылки:
-* :mag_right: [Открыть проект](https://gutmalina.github.io/table-sort-filter/)
+* :mag_right: [Открыть проект](https://gutmalina.github.io/search-users-github/)
 

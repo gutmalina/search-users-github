@@ -1,17 +1,23 @@
 {
-  "name": "search-users-github",
+  "name": "list-posts",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gutmalina.github.io/search-users-github/",
+  "homepage": "https://gutmalina.github.io/list-posts/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,9 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "cypress": "^12.17.2",
-    "eslint-plugin-cypress": "^2.13.3"
   }
 }
